@@ -3,7 +3,7 @@ function darkMode() {
     body.classList.toggle("dark-theme")
 };
 
-let switchModes = document.querySelector("li")
+let switchModes = document.querySelector("input")
 
 document.addEventListener("click", () => {
     darkMode()
