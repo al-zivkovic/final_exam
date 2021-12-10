@@ -28,6 +28,15 @@
   --formBG:         var(--lightCoral);
   --formInput:      var(--white);
 }
+.dark-theme {
+  --navBg:          var(--black);
+  --navLinkHoverBg: var(--blueGray);
+  --mainBg:         var(--blueGray);
+  --fontColor:      var(--white);
+  --navLinkColor:   var(--lightCoral);
+  --formBG:         var(--black);
+  --formInput:      var(--romanSilver);
+}
 
 /* toggle styles begin */
 .toggle {
